@@ -1,0 +1,18 @@
+Functional Test:
+[1, 1, 2, 3, 5, 8, 13]
+true
+false
+Caught exception from a bad insert (this is a good thing). Message: Index Out Of Bounds: 10
+Caught exception from a bad remove (this is also a good thing). Message: Index Out of Bounds: 10
+[1, 1, 2, 3, 5, 8, 13]
+true
+The test took 1 milliseconds.
+And -1335808 bytes of memory.
+
+10,000 Piece Efficiency Test:
+The test took 67 milliseconds.
+And -1209632 bytes of memory.
+
+100,000 Piece Efficiency Test:
+The test took 5305 milliseconds.
+And -313032 bytes of memory.
